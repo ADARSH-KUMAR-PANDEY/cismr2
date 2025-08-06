@@ -15,6 +15,11 @@ button {
     position: relative;
     z-index: 10;
 }
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* makes it behave like a block element */
+}
 
 .navitems {
     display: inline-block;
@@ -38,7 +43,7 @@ button {
 
 .navitems:hover {
     color: #ffffff;
-    background-color: #1565c0;
+    background-color: #e2d439;
     transform: scale(1.05);
     border: 2px solid #1565c0;
     box-shadow: 0 0 10px rgba(21, 101, 192, 0.7);
@@ -50,7 +55,7 @@ button {
     top: 100%;
     left: 0;
     z-index: 999;
-    background-color: #37595f;
+    background-color: #5d5475;
     padding: 8px 0;
     list-style: none;
     min-width: 120px;
@@ -60,13 +65,13 @@ button {
 
 .dropdown li {
     padding: 8px 12px;
-    color: white;
+    color: rgb(210, 210, 233);
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
 .dropdown li:hover {
-    background-color: #3f0d59;
+    background-color: #ffffff;
 }
 
 .navitems:hover .dropdown {
