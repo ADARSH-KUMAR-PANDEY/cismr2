@@ -36,17 +36,17 @@ button {
     padding: 8px 12px;
     position: relative;
     transition: all 0.3s ease-in-out;
-    color: #540b06;
+    color: #590902;
     background-color: transparent;
     border-radius: 5px;
 }
 
 .navitems:hover {
-    color: #ffffff;
-    background-color: #e2d439;
+    color: #eeff00;
+    background-color: #ffea00;
     transform: scale(1.05);
     border: 2px solid #1565c0;
-    box-shadow: 0 0 10px rgba(21, 101, 192, 0.7);
+    box-shadow: 0 0 10px rgba(181, 192, 205, 0.7);
 }
 
 .dropdown {
@@ -55,7 +55,7 @@ button {
     top: 100%;
     left: 0;
     z-index: 999;
-    background-color: #5d5475;
+    background-color: #faf38e;
     padding: 8px 0;
     list-style: none;
     min-width: 120px;
@@ -65,13 +65,13 @@ button {
 
 .dropdown li {
     padding: 8px 12px;
-    color: rgb(210, 210, 233);
+    color: rgb(98, 7, 7);
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
 .dropdown li:hover {
-    background-color: #ffffff;
+    background-color: #f1ed07;
 }
 
 .navitems:hover .dropdown {
