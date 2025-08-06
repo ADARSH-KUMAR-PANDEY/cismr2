@@ -174,3 +174,51 @@ li {
 #svnit{
     width: 70%;
 }
+@media (max-width: 768px) {
+    /* Reduce heading font size and allow wrapping */
+    .responsive-heading {
+        font-size: 1.1rem;
+        line-height: 1.2;
+        padding: 0 10px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    /* Stack logos and heading vertically for narrow screens */
+    .responsive-heading-container {
+        order: 3;
+        margin-top: 10px;
+    }
+
+    #cismr,
+    #svnit {
+        width: 60%;
+        max-width: 80px;
+        height: auto;
+    }
+
+    /* Reduce nav item padding for smaller screens */
+    .navitems {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+        min-width: 80px;
+    }
+
+    /* Make nav list vertical on smaller screens (optional for better layout) */
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-heading {
+        font-size: 0.95rem;
+    }
+
+    #cismr,
+    #svnit {
+        width: 50%;
+        max-width: 60px;
+    }
+}
